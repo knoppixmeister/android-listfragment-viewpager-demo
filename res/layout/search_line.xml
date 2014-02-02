@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <EditText	android:id="@+id/editText1"
+        		android:hint="Type to search here"
+		        android:layout_width="300dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:lines="1"
+		        android:textColor="@android:color/white"
+		        android:singleLine="true"
+		        android:maxLines="1">
+		<requestFocus />
+    </EditText>
+
+    <Button	android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.15"
+	        android:text="@string/to_search"
+	        android:textColor="@android:color/white"/>
+
+</LinearLayout>
